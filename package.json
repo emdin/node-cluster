@@ -1,0 +1,11 @@
+{ "name": "cluster-example"
+, "version": "0.0.1"
+, "description": "Simple cluster wrapper"
+, "author": "Roman Ernst <rernst@farbenmeer.net>"
+, "repository": { "type": "git" , "url": "git://github.com/farbenmeer/node-cluster.git" }
+, "homepage": "https://github.com/farbenmeer/node-cluster"
+, "main": "lib/cluster.js"
+, "bin": { "cluster" : "./lib/cli.js" }
+, "engine": "node >=0.10.0"
+, "preferGlobal": false
+}
