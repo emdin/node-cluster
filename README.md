@@ -12,13 +12,17 @@ This is supposed to show the power and reliability of [cluster API](http://nodej
 
 where `test-app.js` is the app to get clustered
 
+### Monitoring via Munin
+
+Using [nodejs-munin](https://github.com/newleafdigital/nodejs-munin), there is a server listing on `127.0.0.1:8082/stats` for munin plugin. This can be changed in `config/munin.json`.
+
 ### Debugging
 You might run the wrapper by manually calling the cli:
 
     $ node ./lib/cli.js app=app.js
 
 ### TODO
-If it's actually cool, why not npm it?
+* Modulize monitor (and possibility to disable it)
 
 #### Resources & Thanks
 * [DeliveryHero for paying me for this](http://deliveryhero.com/)
