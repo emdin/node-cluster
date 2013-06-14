@@ -1,0 +1,12 @@
+{
+  "statsHost": "127.0.0.1"
+, "statsPort": "8082"
+, "statsPath": "/stats"
+, "statsKeys": [
+    "uptime"
+  , "memoryHeapUsed"
+  , "memoryHeapTotal"
+  , "memoryRss"
+  , "cpuUsage"
+  , "responseTime" ]
+}

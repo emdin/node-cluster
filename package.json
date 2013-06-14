@@ -8,4 +8,8 @@
 , "bin": { "cluster" : "./lib/cli.js" }
 , "engine": "node >=0.10.0"
 , "preferGlobal": false
+, "dependencies": {
+    "winston": ">= 0.7.1"
+  , "usage": ">= 0.3.4"
+  , "munin": "git://github.com/pex/nodejs-munin.git#master" }
 }
