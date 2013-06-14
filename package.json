@@ -1,5 +1,5 @@
-{ "name": "cluster-example"
-, "version": "0.0.1"
+{ "name": "clusterer"
+, "version": "0.0.2"
 , "description": "Simple cluster wrapper"
 , "author": "Roman Ernst <rernst@farbenmeer.net>"
 , "repository": { "type": "git" , "url": "git://github.com/farbenmeer/node-cluster.git" }
